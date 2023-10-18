@@ -1,0 +1,35 @@
+.modal-full-conatiner{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 97vh;
+    background-color: rgba(244, 238, 238, 0.448);
+
+
+
+    display: flex;
+
+
+}
+.madal-container{
+    width: 400px;
+    height: auto;
+    border: 1px dashed grey;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+   
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-footer{
+       display: flex;
+    justify-content: end;
+}
+.modal-action{
+    cursor: pointer;
+}

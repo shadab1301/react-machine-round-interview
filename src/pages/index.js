@@ -1,4 +1,4 @@
-import Modal from "./Modal/Modal";
+import ModalPage from "./Modal/Modal";
 import StarRating from './starRating/StarRating';
 import Stopwatch from './stopwatch/Stopwatch';
 import PasswordGenerator from "./PasswordGenerator/PasswordGenerator";
@@ -7,10 +7,13 @@ import SearchBar from './Searchbar/SearchBar';
 import TodoList from './TodoList/TodoList';
 import CountdownTimer from './CountdownTimer/CountdownTimer';
 import EmployeeToggle from './EmployeeToggle/EmployeeToggle';
+import SlideShow from './SlideShow/SlideShow';
+import Modal from "./Modal/Modal";
 
 
 export {
-  Modal,
+ ModalPage,
+ Modal,
   StarRating,
   Stopwatch,
   PasswordGenerator,
@@ -18,5 +21,6 @@ export {
   SearchWithPagination,
   TodoList,
   CountdownTimer,
-  EmployeeToggle
+  EmployeeToggle,
+  SlideShow
 };

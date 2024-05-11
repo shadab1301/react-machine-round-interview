@@ -7,6 +7,7 @@ import SearchWithPaginationView from "./SearchWithPaginationView/SearchWithPagin
 import TodoListView from './TodoListView/TodoListView';
 import CountdownTimerView from './CountdownTimerView/CountdownTimerView';
 import EmployeeToggleView from './EmployeeToggleView/EmployeeToggleView';
+import SlideShowView from './SlideShowView/SlideShowView';
 
 
 
@@ -21,5 +22,6 @@ export {
   SearchWithPaginationView,
   TodoListView,
   CountdownTimerView,
-  EmployeeToggleView
+  EmployeeToggleView,
+  SlideShowView,
 };

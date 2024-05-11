@@ -15,7 +15,7 @@ const Modal = () => {
     setIsmodalOpen(false)
    }
   return (
-    <div className="conatiner" >
+    <div className="conatiner">
       <button
         onClick={(e) => {
           e.preventDefault();
@@ -31,6 +31,7 @@ const Modal = () => {
             closeModal={closeModal}
             title="Modal title"
             body={ModalBody}
+            isModalOpen={isModalOpen}
           />
         </>
       )}

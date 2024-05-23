@@ -56,10 +56,12 @@ const copyToClipborad=(e)=>{
     <>
       <div
         style={{
-          width: "500px",
-          height: "400px",
-          border: "1px dashed red",
+          width: "auto",
+          height: "auto",
+          padding:"20px",
+          border: "1px dashed grey",
           textAlign: "center",
+          borderRadius:"10px"
         }}
       >
         <h4>Strong Passwordgenerator</h4>

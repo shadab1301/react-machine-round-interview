@@ -2,8 +2,6 @@
 import './App.css'
 import React from 'react';
 
-import { Stopwatch, StarRating,  PasswordGenerator,SearchBar, SearchWithPagination, TodoList, CountdownTimer, EmployeeToggle, SlideShow, ModalPage, Modal } from "./pages";
-
 
 import { NavLink, Outlet } from 'react-router-dom';
 import {
@@ -15,6 +13,8 @@ import {
 import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from './Component/Navbar/Navbar';
 import Dashboard from "./Component/Dashboard/Dashboard.jsx";
+
+import DynamicComponent from './pages/DynamicComponent.jsx';
 function App() {
 // const router = createBrowserRouter([
 //   {
@@ -46,8 +46,12 @@ const router = createBrowserRouter([
         path: "component",
       },
       {
-        element: <h1>About</h1>,
-        path: "about",
+        element: <DynamicComponent />,
+        path: "component/:name",
+      },
+      {
+        element: <h1>Project</h1>,
+        path: "project",
       },
     ],
   },

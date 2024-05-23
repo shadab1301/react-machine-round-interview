@@ -47,7 +47,7 @@ const CountdownTimerView = () => {
   }, [second, isTimerStart]);
   return (
     <>
-      <div className="container">
+      <div className="container" style={{width:"auto",height:"auto",padding:"20px",border:"1px dashed grey"}}>
         <h3>Countdown timer</h3>
         <div>
           {/* <input

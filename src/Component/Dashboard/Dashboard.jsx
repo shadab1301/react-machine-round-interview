@@ -62,7 +62,7 @@ const component = [
     name: "Progress bar",
     desc: "Progress bar",
     image: "",
-    path: "#",
+    path: "progress-bar",
   },
   {
     name: "File explorer",

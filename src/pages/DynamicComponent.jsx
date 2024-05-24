@@ -26,7 +26,7 @@ const componentMap = {
     import("../Component/TodoListView/TodoListView.jsx")
   ),
   modal: React.lazy(() => import("../Component/Modal/ModalView.jsx")),
-  
+  "progress-bar": React.lazy(() => import("../Component/ProgressBar/ProgressBar.jsx")),
 };
 
 const DynamicComponent = () => {

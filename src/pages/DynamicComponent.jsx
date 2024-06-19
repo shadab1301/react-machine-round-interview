@@ -26,13 +26,21 @@ const componentMap = {
     import("../Component/TodoListView/TodoListView.jsx")
   ),
   modal: React.lazy(() => import("../Component/Modal/ModalView.jsx")),
-  "progress-bar": React.lazy(() => import("../Component/ProgressBar/ProgressBar.jsx")),
+  "progress-bar": React.lazy(() =>
+    import("../Component/ProgressBar/ProgressBar.jsx")
+  ),
+  accordian: React.lazy(() =>
+    import("../Component/Accordian/Accordian.jsx")
+  ),
 };
 
 const DynamicComponent = () => {
     const {name}=useParams()
 
     const Component=componentMap[name]
+     if (!Component) {
+       return <h1>Component not found</h1>;
+     }
   return (
     <div style={{width:"98vw",height:"90vh",margin:"0px auto",display:"flex",justifyContent:"center",alignItems:"center"}}>
         <Suspense fallback={<h1>Loading...</h1>}>

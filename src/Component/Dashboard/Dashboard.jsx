@@ -158,7 +158,7 @@ const component = [
     name: " Accordian ",
     desc: " accordian",
     image: "",
-    path: "#",
+    path: "accordian",
   },
   {
     name: " Tab ",

@@ -11,12 +11,6 @@ const component = [
     path: "searchbar",
   },
   {
-    name: "searchbar with pagination",
-    desc: "searchbar with pagination",
-    image: "",
-    path: "searchbar-with-pagination",
-  },
-  {
     name: "Employee Toggle",
     desc: "Employee Toggle",
     image: "",

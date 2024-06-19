@@ -4,9 +4,6 @@ const componentMap = {
   searchbar: React.lazy(() =>
     import("../Component/Searchbar/SearchbarView.jsx")
   ),
-  "searchbar with pagination": React.lazy(() =>
-    import("../Component/SearchWithPaginationView/SearchWithPaginationView.jsx")
-  ),
   "emp-toggle": React.lazy(() =>
     import("../Component/EmployeeToggleView/EmployeeToggleView.jsx")
   ),

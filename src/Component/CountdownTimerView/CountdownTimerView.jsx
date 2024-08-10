@@ -75,7 +75,7 @@ const CountdownTimerView = () => {
             value={second}
             onChange={handleOnchange}
           />{" "} */}
-          Second{" "}
+          {/* Second{" "} */}
           <button onClick={() => setIsTimerStart(!isTimerStart)}>
             {isTimerStart ? (isTimesUp ? "Start" : "Pause") : "Start"}
           </button>

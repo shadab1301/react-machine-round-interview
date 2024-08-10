@@ -3,9 +3,6 @@ import { Icon } from "@iconify/react";
 const StarRatingView = () => {
   const [rating,setRating]=useState(0)
   const limit=5;
-
-
-
   const handleOnclick=(value)=>{
    setRating(value+1);
   }
@@ -13,7 +10,6 @@ const StarRatingView = () => {
     <>
       <div className="conatiner">
         <h1 className="heading">Star rating {rating}</h1>
-
         <div
           className="startRating-content"
           style={{ display: "flex", gap: 10 }}

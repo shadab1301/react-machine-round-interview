@@ -59,10 +59,16 @@ const component = [
     path: "progress-bar",
   },
   {
+    name: "CacheAPICall",
+    desc: "CacheAPICall",
+    image: "",
+    path: "cache-api-call",
+  },
+  {
     name: "File explorer",
     desc: "file explorer",
     image: "",
-    path: "#",
+    path: "file-explorer",
   },
   {
     name: "EMI calculator",

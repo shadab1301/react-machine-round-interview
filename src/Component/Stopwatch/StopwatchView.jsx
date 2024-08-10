@@ -57,7 +57,7 @@ const StopwatchView = () => {
       >
         <div className="content-div">
           <h3>Stopwatch</h3>
-          <h4>{`${hours} : ${minutes} : ${seconds} : ${milliseconds} `}</h4>
+          <h4>{`${hours} : ${minutes} : ${seconds.toString(2,"A")} : ${milliseconds} `}</h4>
           <button onClick={OnstopWatchReset}>Reset</button>{" "}
           <button onClick={OnstopWatchStartandStop}>
             {isRunning ? "Stop" : "Start"}

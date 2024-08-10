@@ -11,14 +11,24 @@ const componentMap = {
     import("../Component/StartRating/StarRatingView.jsx")
   ),
   stopwatch: React.lazy(() =>
-    import("../Component/Stopwatch/StopwatchView.jsx")
+    // import("../Component/Stopwatch/StopwatchView.jsx")
+    import("../Component/Stopwatch2/Stopwatch.jsx")
   ),
   "countdown-timer": React.lazy(() =>
-    import("../Component/CountdownTimerView/CountdownTimerView.jsx")
+    // import("../Component/CountdownTimerView/CountdownTimerView.jsx")
+    import("../Component/CountdownTimerView/CountdownTimer2.jsx")
+  ),
+  "file-explorer": React.lazy(() =>
+    import("../Component/FolderExplorer/FolderExplorer.jsx")
   ),
   "password-generator": React.lazy(() =>
     import("../Component/PasswordGenerator/PasswordgeneratorView.jsx")
   ),
+
+  "cache-api-call": React.lazy(() =>
+    import("../Component/CachedApiCall/CacheAPICall.jsx")
+  ),
+
   "to-do-list": React.lazy(() =>
     import("../Component/TodoListView/TodoListView.jsx")
   ),
@@ -26,9 +36,7 @@ const componentMap = {
   "progress-bar": React.lazy(() =>
     import("../Component/ProgressBar/ProgressBar.jsx")
   ),
-  accordian: React.lazy(() =>
-    import("../Component/Accordian/Accordian.jsx")
-  ),
+  accordian: React.lazy(() => import("../Component/Accordian/Accordian.jsx")),
 };
 
 const DynamicComponent = () => {
